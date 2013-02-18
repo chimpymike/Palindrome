@@ -1,3 +1,10 @@
+/*
+ * Name: Michael Callahan
+ * Course: CSCI E-50B
+ * Date: 02/18/2013
+ * Assignment Number: 51
+ */
+
 import java.util.Scanner;
 
 class Palindrome {
