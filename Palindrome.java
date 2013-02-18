@@ -8,4 +8,9 @@ class Palindrome {
 	}
     }
 
-    
+    public static boolean isPalindome(String s) {
+	System.out.println("Testing for palindrome ...");
+
+	if (s.length() <=1) {
+	    return true;
+	}
