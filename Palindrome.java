@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 class Palindrome {
     public static void main(String[] args) {
-	String testPalindrome = "tenet";
-	if (isPalindrome(testPalindrome)) {
+	// Get the string to test
+	Scanner keyboard = new Scanner(System.in);
+	System.out.print("Enter a string to test and see if it is a palindrome: ");
+	String testString = keyboard.nextLine();
+
+	// Test the string to see if it is a palindrome
+	if (isPalindrome(testString)) {
 	    System.out.println("This IS a palindrome.");
 	} else {
 	    System.out.println("This is NOT a palindrome.");
