@@ -19,7 +19,7 @@ class Palindrome {
 	    firstChar = Character.toLowerCase(s.charAt(0));
 	    lastChar = Character.toLowerCase(s.charAt(s.length()-1));
 	    System.out.print(firstChar);
-	    System.out.println(lastchar);
+	    System.out.println(lastChar);
 
 	    if (!Character.isLetter(firstChar)) {
 		if (!Character.isLetter(lastChar)) {
