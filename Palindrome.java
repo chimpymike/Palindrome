@@ -13,4 +13,11 @@ class Palindrome {
 
 	if (s.length() <=1) {
 	    return true;
-	}
+	} else {
+	    // Get the first and last characters from the string
+	    Character firstChar, lastChar;
+	    firstChar = Character.toLowerCase(s.charAt(0));
+	    lastChar = Character.toLowerCase(s.charAt(s.length()-1));
+	    System.out.print(firstChar);
+	    System.out.println(lastchar);
+	    
