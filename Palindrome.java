@@ -8,7 +8,7 @@ class Palindrome {
 	}
     }
 
-    public static boolean isPalindome(String s) {
+    public static boolean isPalindrome(String s) {
 	System.out.println("Testing for palindrome ...");
 
 	if (s.length() <=1) {
