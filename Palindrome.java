@@ -31,4 +31,8 @@ class Palindrome {
 		    System.out.println("firstChar is NOT a letter");
 		    return isPalindrome(s.substring(1, s.length()));
 		}
+	    } else if (!Character.isLetter(lastChar)) {
+		// last is not a letter so ignore
+		System.out.println("lastChar is NOT a letter");
+		return isPalindrome(s.substring(0, s.length()-1));
 	    }
