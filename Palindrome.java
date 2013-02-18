@@ -40,4 +40,12 @@ class Palindrome {
 		// call again without first and last
 		System.out.println("firstChar EQUALS lastChar.");
 		return isPalindrome(s.substring(1, s.length()-1));
+	    } else {
+		// first and last are not equal so this is not a palindrome
+		System.out.println("firstChar DOES NOT EQUAL lastChar.");
+		return false;
 	    }
+	}
+    }
+}
+
