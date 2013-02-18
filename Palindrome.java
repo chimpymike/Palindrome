@@ -15,6 +15,12 @@ class Palindrome {
 	}
     }
 
+    /**
+     * Tests if a string is a palindrome.
+     *
+     * @param s the string to be tested
+     * @return true if the string is a palindrome, false if it is not a palindrome
+     */
     public static boolean isPalindrome(String s) {
 	if (s.length() <=1) {
 	    return true;
