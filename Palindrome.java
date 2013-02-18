@@ -35,4 +35,9 @@ class Palindrome {
 		// last is not a letter so ignore
 		System.out.println("lastChar is NOT a letter");
 		return isPalindrome(s.substring(0, s.length()-1));
+	    } else if (firstChar.equals(lastChar)) {
+		// first and last are equal so this is still a palindrome
+		// call again without first and last
+		System.out.println("firstChar EQUALS lastChar.");
+		return isPalindrome(s.substring(1, s.length()-1));
 	    }
